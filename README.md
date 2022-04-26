@@ -72,3 +72,7 @@ upset.vp(baima.env.vp)
 ```
 
 <img src="src/2.png" width="100%" />
+
+## References
+
+Gong S, Feng B, Jian S P, et al. Elevation Matters More than Season in Shaping the Heterogeneity of Soil and Root Associated Ectomycorrhizal Fungal Community. Microbiology spectrum, 2022, 10(1): e01950-21.

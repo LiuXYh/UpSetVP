@@ -23,13 +23,12 @@ Load packages.
 library(rdacca.hp)
 library(ggplot2)
 library(patchwork)
+library(UpSetVP)
 ```
 
 Ectomycorrhizal (EcM) fungal community and environmental data were excerpted from Gong et al. (2022).
 
 ``` r
-library(UpSetVP)
-
 data(baima.fun)
 data(baima.env)
 ```

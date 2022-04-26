@@ -3,7 +3,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Visualization of variance decomposition analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout.
+Visualization of variance decomposition analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout (Conway et al. 2017; Lex et al. 2014).
 
 ## Installation
 
@@ -39,7 +39,7 @@ Quantify the relative importance of individual soil properties (pH, TP, TK, AN, 
 # Bray-Curtis index was used to calculate community composition dissimilarity
 baima.fun.bray <- vegdist(baima.fun, method = 'bray')
 
-# VPA and HP by using rdacca.hp package
+# VPA and HP by using rdacca.hp package (Lai et al. 2022)
 soil <- baima.env[c('pH', 'TP', 'TK', 'AN', 'AP', 'AK')]
 baima.soil.vp <- rdacca.hp(baima.fun.bray, soil, method = 'dbRDA', var.part = TRUE, type = 'adjR2')
 
@@ -75,4 +75,7 @@ upset.vp(baima.env.vp)
 
 ## References
 
+Conway J R, Lex A, Gehlenborg N. UpSetR: an R package for the visualization of intersecting sets and their properties. Bioinformatics, 2017, 33(18): 2938-2940.
 Gong S, Feng B, Jian S P, et al. Elevation Matters More than Season in Shaping the Heterogeneity of Soil and Root Associated Ectomycorrhizal Fungal Community. Microbiology spectrum, 2022, 10(1): e01950-21.
+Lai J, Zou Y, Zhang J, et al. Generalizing hierarchical and variation partitioning in multiple regression and canonical analyses using the rdacca. hp R package. Methods in Ecology and Evolution, 2022.
+Lex A, Gehlenborg N, Strobelt H, et al. UpSet: visualization of intersecting sets. IEEE transactions on visualization and computer graphics, 2014, 20(12): 1983-1992.

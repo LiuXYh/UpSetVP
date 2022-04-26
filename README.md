@@ -49,7 +49,7 @@ upset.vp(baima.soil.vp)
 
 <img src="src/1.png" width="100%" />
 
-The relative importance of groups of environmental factors on EcM fungal community composition.
+The relative importance of groups of environmental factors on EcM fungal community composition.<br>
 Environmental factors including elevation, season, space (dbMEM1 and dbMEM2), host (em.GR and em.abun), climate (sea.MT), and soil (pH, TP, TK, AN, AP, and AK).
 
 ``` r
@@ -75,7 +75,7 @@ upset.vp(baima.env.vp)
 
 ## References
 
-Conway J R, Lex A, Gehlenborg N. UpSetR: an R package for the visualization of intersecting sets and their properties. Bioinformatics, 2017, 33(18): 2938-2940.
-Gong S, Feng B, Jian S P, et al. Elevation Matters More than Season in Shaping the Heterogeneity of Soil and Root Associated Ectomycorrhizal Fungal Community. Microbiology spectrum, 2022, 10(1): e01950-21.
-Lai J, Zou Y, Zhang J, et al. Generalizing hierarchical and variation partitioning in multiple regression and canonical analyses using the rdacca. hp R package. Methods in Ecology and Evolution, 2022.
+Conway J R, Lex A, Gehlenborg N. UpSetR: an R package for the visualization of intersecting sets and their properties. Bioinformatics, 2017, 33(18): 2938-2940.<br>
+Gong S, Feng B, Jian S P, et al. Elevation Matters More than Season in Shaping the Heterogeneity of Soil and Root Associated Ectomycorrhizal Fungal Community. Microbiology spectrum, 2022, 10(1): e01950-21.<br>
+Lai J, Zou Y, Zhang J, et al. Generalizing hierarchical and variation partitioning in multiple regression and canonical analyses using the rdacca. hp R package. Methods in Ecology and Evolution, 2022.<br>
 Lex A, Gehlenborg N, Strobelt H, et al. UpSet: visualization of intersecting sets. IEEE transactions on visualization and computer graphics, 2014, 20(12): 1983-1992.

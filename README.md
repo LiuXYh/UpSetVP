@@ -12,7 +12,7 @@ Install the released version of `UpSetVP` from
 
 ``` r
 # install.packages('devtools')
-devtools::install_github('LiuXYh/UpSetVP')
+devtools::install_github('LiuXYh/UpSetVP', force = TRUE)
 ```
 
 ## A Simple Example
@@ -43,11 +43,18 @@ baima.fun.bray <- vegdist(baima.fun, method = 'bray')
 soil <- baima.env[c('pH', 'TP', 'TK', 'AN', 'AP', 'AK')]
 baima.soil.vp <- rdacca.hp(baima.fun.bray, soil, method = 'dbRDA', var.part = TRUE, type = 'adjR2')
 
-# Plot
-upset.vp(baima.soil.vp)
+# Plot unique, common, as well as individual effects
+upset_vp(baima.soil.vp, plot.hp = TRUE)
 ```
 
-<img src="src/1.png" width="100%" />
+<img src="man/figures/1.png" width="100%" />
+
+``` r
+# Only plot individual effects
+barplor_vp(baima.soil.vp, col.fill = 'var')
+```
+
+<img src="man/figures/2.png" width="100%" />
 
 ##
 The relative importance of groups of environmental factors on EcM fungal community composition.<br>
@@ -68,11 +75,18 @@ env.list <- list(
 )
 baima.env.vp <- rdacca.hp(baima.fun.bray, env.list, method = 'dbRDA', var.part = TRUE, type = 'adjR2')
 
-# Plot
-upset.vp(baima.env.vp)
+# Plot unique, common, as well as individual effects
+upset_vp(baima.env.vp, plot.hp = TRUE, order.part = 'degree')
 ```
 
-<img src="src/2.png" width="100%" />
+<img src="man/figures/3.png" width="100%" />
+
+``` r
+# Only plot individual effects
+barplor_vp(baima.env.vp, col.fill = 'var', col.color = c('#8DD3C7', '#FFFFB3', '#BEBADA', '#FB8072', '#80B1D3', '#FDB462', '#B3DE69'))
+```
+
+<img src="man/figures/4.png" width="100%" />
 
 ## References
 

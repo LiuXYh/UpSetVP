@@ -54,7 +54,7 @@ upset_vp(baima.soil.vp, plot.hp = TRUE)
 barplot_hp(baima.soil.vp, col.fill = 'var')
 ```
 
-<img src="man/figures/2.png" width="100%" />
+<img src="man/figures/2.png" height="40%" width="40%" />
 
 ##
 The relative importance of groups of environmental factors on EcM fungal community composition.<br>
@@ -86,7 +86,7 @@ upset_vp(baima.env.vp, plot.hp = TRUE, order.part = 'degree')
 barplot_hp(baima.env.vp, col.fill = 'var', col.color = c('#8DD3C7', '#FFFFB3', '#BEBADA', '#FB8072', '#80B1D3', '#FDB462', '#B3DE69'))
 ```
 
-<img src="man/figures/4.png" width="100%" />
+<img src="man/figures/4.png" height="40%" width="40%" />
 
 ## References
 

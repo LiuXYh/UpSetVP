@@ -47,7 +47,7 @@ baima.soil.vp <- rdacca.hp(baima.fun.bray, soil, method = 'dbRDA', var.part = TR
 upset_vp(baima.soil.vp, plot.hp = TRUE)
 ```
 
-<img src="man/figures/1.png" width="100%" />
+<img src="man/figures/1.png" height="80%" width="80%" />
 
 ``` r
 # Only plot individual effects
@@ -79,7 +79,7 @@ baima.env.vp <- rdacca.hp(baima.fun.bray, env.list, method = 'dbRDA', var.part =
 upset_vp(baima.env.vp, plot.hp = TRUE, order.part = 'degree')
 ```
 
-<img src="man/figures/3.png" width="100%" />
+<img src="man/figures/3.png" height="80%" width="80%" />
 
 ``` r
 # Only plot individual effects

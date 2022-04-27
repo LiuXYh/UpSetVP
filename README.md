@@ -49,6 +49,7 @@ upset.vp(baima.soil.vp)
 
 <img src="src/1.png" width="100%" />
 
+<br>
 The relative importance of groups of environmental factors on EcM fungal community composition.<br>
 Environmental factors including elevation, season, space (dbMEM1 and dbMEM2), host (em.GR and em.abun), climate (sea.MT), and soil (pH, TP, TK, AN, AP, and AK).
 

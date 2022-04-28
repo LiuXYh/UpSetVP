@@ -2,7 +2,7 @@ Package: UpSetVP
 Title: An Alternative Visualization of Variation Partitioning and Hierarchical Partitioning in Canonical Analysis
 Version: 1.0.0
 Author: Yao Liu
-Maintainer: Yao Liu <liuyao@stu.xmu.edu.cn>
+Maintainer: Yao Liu <lyao222lll@nwafu.edu.cn>
 Description: Using matrix layout to visualize the unique, common or individual contribution of each predictor (or matrix of predictors) towards explained variation on canonical analysis.
 URL: https://github.com/LiuXYh/UpSetVP
 BugReports: https://github.com/LiuXYh/UpSetVP/issues

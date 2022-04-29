@@ -1,6 +1,6 @@
 #' @title Visualization of VPA and HP Using UpSetVP Diagram
 #'
-#' @description Visualization of variance decomposition analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout.
+#' @description Visualization of variance partitioning analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout.
 #'
 #' @param rdacca A \code{\link{rdacca.hp}} object, which contains the output of VPA and HP from canonical analysis.
 #' @param plot.hp The default is \code{TRUE}, which plots the individual effect for each predictor on left column diagram. If \code{FALSE}, compute and plot the sum of unique effect and common effect for each predictor.

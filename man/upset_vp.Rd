@@ -63,7 +63,7 @@ upset_vp(
 \itemize{Returns a ggplot2.}
 }
 \description{
-Visualization of variance decomposition analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout.
+Visualization of variance partitioning analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout.
 }
 \details{
 UpSetVP diagram is an extension of UpSet technique (Conway et al. 2017; Lex et al. 2014) to canonical analysis and is used to visualize the object of \code{\link{rdacca.hp}} (Lai et al. 2022). The matrix layout enables the effective representation of relative importance of predictors, such as the unique effects and common effects in VPA, as well as additional summary statistics or individual effects in HP. UpSetVP diagram could, in principle, allow visualization of any number of predictor variables or groups of predictor variables. But considering the interpretability of data, we would like to recommend that the number of predictors (or groups of predictors) no more than 7.

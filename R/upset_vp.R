@@ -53,7 +53,7 @@
 #' if(requireNamespace("adespatial", quietly = TRUE)) {
 #'
 #' # Distance-based Moran's eigenvector maps (dbMEM) was used to extract spatial relationships
-#' space.dbmem <- dbmem(baima.env[c("latitude", "lontitude")])
+#' space.dbmem <- adespatial::dbmem(baima.env[c("latitude", "lontitude")])
 #'   
 #'   # The relative importance of groups of environmental factors on EcM fungal community composition
 #'   env.list <- list(

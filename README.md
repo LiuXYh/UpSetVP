@@ -7,7 +7,7 @@ Visualization of variance partitioning analysis (VPA) and hierarchical partition
 
 ## Installation
 
-Install the released version of `UpSetVP` from CRAN or [GitHub](https://github.com/LiuXYh/UpSetVP) with:
+Install the released version of `UpSetVP` from [CRAN](https://www.r-project.org/) or [GitHub](https://github.com/LiuXYh/UpSetVP) with:
 
 ``` r
 # from CRAN

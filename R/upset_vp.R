@@ -220,7 +220,7 @@ upset_vp <- function(x, plot.hp = TRUE, order.part = "effect", decreasing.part =
   # Draw VPA or HP
   design <- c(patchwork::area(1, 1+width.ratio[1], 1+height.ratio[1], 1+width.ratio[1]+width.ratio[2]), 
     patchwork::area(1+height.ratio[1]+height.ratio[2], 1+width.ratio[1], 1+width.ratio[1]+width.ratio[2], 1+width.ratio[1]+width.ratio[2]),
-    patchwork::area(1+height.ratio[1]+height.ratio[2], 1, 1+width.ratio[1]+width.ratio[2], 1))
+    patchwork::area(1+height.ratio[1]+height.ratio[2], 1, 1+width.ratio[1]+width.ratio[2], width.ratio[1]))
   if (plot.hp)
     p.vp + p.panel + p.hp + patchwork::plot_layout(design = design)
   else

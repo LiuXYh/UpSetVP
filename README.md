@@ -93,6 +93,6 @@ barplot_hp(baima.env.vp, col.fill = 'var', col.color = c('#8DD3C7', '#FFFFB3', '
 
 ## References
 
-[刘尧,于馨,于洋,胡文浩,赖江山. rdacca.hp包在生态学数据分析中的应用: 案例与进展. 植物生态学报，2023, 27:134-144.](https://www.plant-ecology.com/CN/10.17521/cjpe.2022.0314)<br>
+[刘尧, 于馨, 于洋, 胡文浩, 赖江山. rdacca.hp包在生态学数据分析中的应用: 案例与进展. 植物生态学报, 2023, 27:134-144.](https://www.plant-ecology.com/CN/10.17521/cjpe.2022.0314)<br>
 [Gong S, Feng B, Jian S P, et al. Elevation Matters More than Season in Shaping the Heterogeneity of Soil and Root Associated Ectomycorrhizal Fungal Community. Microbiology spectrum, 2022, 10(1): e01950-21.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8754124/)<br>
 [Lai J, Zou Y, Zhang J, et al. Generalizing hierarchical and variation partitioning in multiple regression and canonical analyses using the rdacca. hp R package. Methods in Ecology and Evolution, 2022, 13(4): 782-788.](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13800)<br>

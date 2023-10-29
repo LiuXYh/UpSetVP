@@ -3,7 +3,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Visualization of variance partitioning analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout ([Conway et al. 2017](https://vdl.sci.utah.edu/publications/2017_bioinformatics_upsetr/#:~:text=We%20developed%20UpSetR%2C%20an%20open%20source%20R%20package,License.%20A%20Shiny%20app%20is%20available%20at%20https%3A%2F%2Fgehlenborglab.shinyapps.io%2Fupsetr.); [Lex et al. 2014](https://ieeexplore.ieee.org/document/6876017)).
+Visualization of variance partitioning analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout ([刘尧 等人. 2023](https://www.plant-ecology.com/CN/10.17521/cjpe.2022.0314)).
 
 ## Installation
 
@@ -94,7 +94,5 @@ barplot_hp(baima.env.vp, col.fill = 'var', col.color = c('#8DD3C7', '#FFFFB3', '
 ## References
 
 [刘尧,于馨,于洋,胡文浩,赖江山. rdacca.hp包在生态学数据分析中的应用: 案例与进展. 植物生态学报，2023, 27:134-144.](https://www.plant-ecology.com/CN/10.17521/cjpe.2022.0314)<br>
-[Conway J R, Lex A, Gehlenborg N. UpSetR: an R package for the visualization of intersecting sets and their properties. Bioinformatics, 2017, 33(18): 2938-2940.](https://vdl.sci.utah.edu/publications/2017_bioinformatics_upsetr/#:~:text=We%20developed%20UpSetR%2C%20an%20open%20source%20R%20package,License.%20A%20Shiny%20app%20is%20available%20at%20https%3A%2F%2Fgehlenborglab.shinyapps.io%2Fupsetr.)<br>
 [Gong S, Feng B, Jian S P, et al. Elevation Matters More than Season in Shaping the Heterogeneity of Soil and Root Associated Ectomycorrhizal Fungal Community. Microbiology spectrum, 2022, 10(1): e01950-21.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8754124/)<br>
 [Lai J, Zou Y, Zhang J, et al. Generalizing hierarchical and variation partitioning in multiple regression and canonical analyses using the rdacca. hp R package. Methods in Ecology and Evolution, 2022, 13(4): 782-788.](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13800)<br>
-[Lex A, Gehlenborg N, Strobelt H, et al. UpSet: visualization of intersecting sets. IEEE transactions on visualization and computer graphics, 2014, 20(12): 1983-1992.](https://ieeexplore.ieee.org/document/6876017)

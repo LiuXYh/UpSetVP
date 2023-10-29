@@ -3,7 +3,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Visualization of variance partitioning analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout ([刘尧 等人. 2023](https://www.plant-ecology.com/CN/10.17521/cjpe.2022.0314)).
+Visualization of variance partitioning analysis (VPA) and hierarchical partitioning (HP) with unlimited number of predictor variables (or matrices of predictors) using UpSet matrix layout ([刘尧 等人. 2023](https://www.plant-ecology.com/CN/10.17521/cjpe.2022.0314); [Lai et al. 2022](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13800)).
 
 ## Installation
 
